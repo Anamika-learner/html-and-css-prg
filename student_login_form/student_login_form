@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body{
+            font-family:calibri,Helvetica, sans-serif;
+            background-color:pink;
+          }
+        button{
+            background-color:#4caf50;
+            width:98%;
+            color:red;
+            padding:15px;
+            margin:10px;
+            border:none;
+            cursor: pointer;
+        }
+        h1{
+            color:rgb(194, 111, 250)
+        }
+        form{
+          
+            background-color: rgb(154, 235, 241);
+        }
+    input[type=text],input[type=password]
+    {
+        background-color: rgb(227, 195, 236);
+        color:blue;
+        width:100%;
+        margin:10px;
+        padding:15px 20px;
+        display:inline-block;
+        border:2px solid rgb(6, 97, 235);
+    }
+    botton:hover{
+        opacity:0.7;
+    }
+    .cancelbtn{
+        padding:15px;
+        background-color:#4caf50;
+        font-family:'Cambria';
+    }
+    a{
+        color:rgb(71, 38, 255);
+        font-size:20px;
+        font-family: cursive;
+    }
+    
+    </style>
+</head>
+<body>
+    <center><h1>STUDENT LOGIN FORM</center></h1>
+    <form> 
+        <div class="container">
+            <lable>username:</lable>
+           <input type="text"placeholder="enter username"
+            name="username"required>
+            <lable>password:</lable>
+            <input type="password"placeholder="enter password"name="password"required>
+            <button type="submit">Login</button>
+            <input type="checkbox"checked="checked">
+             REMEMBER ME
+            <button type="button"class="cancelbtn">Cancel</button> forgot<a href="#">password?</a>
+        </div>
+    </form>
+</body>
+</html>
