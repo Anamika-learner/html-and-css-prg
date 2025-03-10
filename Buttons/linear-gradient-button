@@ -160,7 +160,6 @@
             background :-webkit-linear-gradient(left, #63ff94,#6479ff);
             color:white;
         }
-        
     </style>
 </head>
 <body>
