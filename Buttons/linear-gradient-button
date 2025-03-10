@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+            border: 0;
+            border-radius: 50px;         
+            display: inline-block;
+            text-align: center;
+            padding: 15px 60px;
+            transition-duration: 0.5s;
+            font-size: large;
+            margin: 10px;            
+            color:white;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button1{
+            background :-webkit-linear-gradient(left, #e8068c,#00aeef);
+        }
+        .button1:hover{
+            background :-webkit-linear-gradient(left, #ff49b6,#3ecbff);
+            color:white;
+        }
+        .button2{
+            background :-webkit-linear-gradient(left, #e8068c,#2b3891);
+        }
+        .button2:hover{
+            background :-webkit-linear-gradient(left, #f952b6,#677bfd);
+            color:white;
+        } 
+        .button3{
+            background :-webkit-linear-gradient(left, #e8068c,#f04b22);
+            color:white;
+        }.button3:hover{
+            background :-webkit-linear-gradient(left, #ff48b6,#ff7f5f);
+        }
+        .button4{
+            background :-webkit-linear-gradient(left,#e8068c,#fff002);
+        }
+        .button4:hover{
+            background :-webkit-linear-gradient(left,#ff5bbd,#fff567);
+            color:white;
+        }.button5{
+            background :-webkit-linear-gradient(left,#e8068c,#19a048);
+        }
+        .button5:hover{
+            background :-webkit-linear-gradient(left,#ff6dc5,#5eff96);
+            color:white;
+        }.button6{
+            background :-webkit-linear-gradient(left,#e8068c,#009d9f);
+
+        }
+        .button6:hover{
+            background :-webkit-linear-gradient(left, #ff68c2,#7efdff);
+            color:white;
+        }.button7{
+            background :-webkit-linear-gradient(left,#e8068c,#babdbe);
+
+        }
+        .button7:hover{
+            background :-webkit-linear-gradient(left,#ff6dc5,#7ddeff);
+            color:white;
+        }.button8{
+            background :-webkit-linear-gradient(left,#f04b22,#fff101);
+
+        }
+        .button8:hover{
+            background :-webkit-linear-gradient(left,#ff8f73,#fff97f);
+            color:white;
+        }.button9{
+            background :-webkit-linear-gradient(left, #f04b22,#93c94c);
+
+        }
+        .button9:hover{
+            background :-webkit-linear-gradient(left, #ff7f5f,#c2ff72);
+          
+        }.button10{
+            background :-webkit-linear-gradient(left, #f04b22,#1fa148);
+
+        }
+        .button10:hover{
+            background :-webkit-linear-gradient(left, #ff9074,#73ffa0);
+            color:white;
+        }.button11{
+            background :-webkit-linear-gradient(left,#f04b22,#009d9f);
+
+        }
+        .button12{
+            background :-webkit-linear-gradient(left,#50ff50,#ff40f5);
+
+        }
+        
+        .button12:hover{
+            background :-webkit-linear-gradient(left,#7cff7c,#ff84f9);
+            ;
+            color:white;
+        }
+        .button11:hover{
+            background :-webkit-linear-gradient(left, #ff7957,#87fdff);
+            color:white;
+        }.button13{
+            background :-webkit-linear-gradient(left,#f04b22,#00aded);
+
+        }
+        .button13:hover{
+            background :-webkit-linear-gradient(left,#ff7f5f,#6fd9ff);
+            color:white;
+        }.button14{
+            background :-webkit-linear-gradient(left,#f04b22,#283891);
+
+        }
+        .button14:hover{
+            background :-webkit-linear-gradient(left,#ff9479,#7085ff );
+            color:white;
+        }.button15{
+            background :-webkit-linear-gradient(left, #1d0dff,#eb058c);
+
+        }
+        .button15:hover{
+            background :-webkit-linear-gradient(left, #8e97ff,#ff6cc2 );
+            color:white;
+        }.button16{
+            background :-webkit-linear-gradient(left,#f04b22,#badbae);
+
+        }
+        .button16:hover{
+            background :-webkit-linear-gradient(left,#ff8d71,#9eff7a );
+            color:white;
+        }.button17{
+            background :-webkit-linear-gradient(left, #fff003,#93c94c);
+
+        }
+        .button17:hover{
+            background :-webkit-linear-gradient(left, #fff45b,#c1ff70);
+            color:white;
+        }.button18{
+            background :-webkit-linear-gradient(left,#fff003,#ec048c);
+
+        }
+        .button18:hover{
+            background :-webkit-linear-gradient(left,#fff67b,#ff64be );
+            color:white;
+        }.button19{
+            background :-webkit-linear-gradient(left,#1fa148,#fff003);
+
+        }
+        .button19:hover{
+            background :-webkit-linear-gradient(left,#5eff91,#fff564);
+            color:white;
+        }
+        .button20{
+            background :-webkit-linear-gradient(left,#1fa148,#2b3891);
+
+        }
+        .button20:hover{
+            background :-webkit-linear-gradient(left, #63ff94,#6479ff);
+            color:white;
+        }
+        
+    </style>
+</head>
+<body>
+    <button class="btn button1">button</button>
+    <button class="btn button2">button</button>
+    <button class="btn button3">button</button>
+    <button class="btn button4">button</button>
+    <button class="btn button5">button</button>
+    <button class="btn button6">button</button>
+    <button class="btn button7">button</button>
+    <button class="btn button8">button</button>
+    <button class="btn button9">button</button>
+    <button class="btn button10">button</button>
+    <button class="btn button11">button</button>
+    <button class="btn button12">button</button>
+    <button class="btn button13">button</button>
+    <button class="btn button14">button</button>
+    <button class="btn button15">button</button>
+    <button class="btn button16">button</button>
+    <button class="btn button17">button</button>
+    <button class="btn button18">button</button>
+    <button class="btn button19">button</button>
+    <button class="btn button20">button</button>
+    </body>
+</html>
